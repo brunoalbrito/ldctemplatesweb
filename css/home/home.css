@@ -1,13 +1,15 @@
 .bg-1 {
-  background-color: #E80C20;
+
+  background: linear-gradient(#8441FF, #42007F);
   color: #ffffff;
 }
 .bg-2 {
-  background-color: #474e5d;
+  background: linear-gradient(#4A107A,#4A107A,#4A107A, #8441FF);
+  background-color: #8441FF;
   color: #ffffff;
 }
 .bg-3 {
-  background-color: #68050E;
+  background-color: #42007F;
   color: #ffffff;
 }
 .bg-4 {
@@ -24,7 +26,8 @@
   padding-bottom: 30px;
 }
 .fa {
-  margin-left: 13%;
+  margin-left: 4%;
+  margin-top: 5%;
 }
 .icones {
   margin-left: 20%;
@@ -54,3 +57,16 @@
     /*background-color: #ccc;
     border: 1px solid #ddd;*/
   }
+
+p{
+  margin:0px;
+}
+span{
+  margin: 0px;
+}
+@media only screen and (max-width: 768px) {
+  p{
+    margin-bottom: 10px;
+  }
+}
+/***************************************/
