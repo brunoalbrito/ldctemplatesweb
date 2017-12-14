@@ -1,0 +1,56 @@
+.bg-1 {
+  background-color: #E80C20;
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #68050E;
+  color: #ffffff;
+}
+.bg-4 {
+    background-color: #ffffff;
+    color: #555555;
+}
+.container-fluid {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    height: 100%;
+}
+.container-fluid2 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.fa {
+  margin-left: 13%;
+}
+.icones {
+  margin-left: 20%;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+.imagem {
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+.navigation {
+  margin-left: 15%;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+    /*background-color: #ccc;
+    border: 1px solid #ddd;*/
+  }
