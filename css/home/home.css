@@ -9,7 +9,7 @@
 .container-fluid-first {
     padding-top: 60px;
     padding-bottom: 160px;
-    height: 100%;
+    height: 100vh;
 }
 .container-fluid {
     padding-top: 60px;
@@ -48,10 +48,10 @@
     display: inline-block;
     float: none;
     /* reset the text-align */
-    
+
     text-align: left;
     /* inline-block space fix */
-    
+
     margin-right: -4px;
     text-align: center;
     /*background-color: #ccc;
@@ -63,4 +63,72 @@ p {
 }
 .footer-2 {
     padding-top: 2%;
+}
+.container-fluid-first .input-group{
+  margin-top: 8%;
+}
+@media only screen and (min-width : 769px) and (max-width : 1200px) {
+  .container-fluid-first .input-group{
+    margin-top: 15%!important;
+  }
+  .imagem {
+      width: 50%;
+      height: 70%;
+      margin: 2%;
+      color: white;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width : 768px) {
+  .container-fluid-first {
+      padding-top: 60px;
+      padding-bottom: 200px;
+      height: 200px;
+  }
+  .container-fluid-first .input-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .imagem {
+      width: 50%;
+      height: 70%;
+      margin: 2%;
+      color: white;
+  }
+  .container-fluid {
+      padding-top: 25%;
+      padding-bottom: 100px;
+      height: 100%;
+  }
+  .btn{
+    width: 100%;
+  }
+  .btn #send{
+    margin-bottom: 2%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .container-fluid-first {
+      padding-top: 60px;
+      padding-bottom: 250px;
+      height: 250px;
+  }
+  .container-fluid-first .input-group{
+    margin-top: 30px;
+  }
+  .container-fluid{
+    margin-top: 50px!important;
+  }
+  .imagem {
+      width: 70%;
+      height: 90%;
+      margin: 2%;
+      color: white;
+  }
+  .btn{
+    width: 100%;
+  }
+  .btn #send{
+    margin-bottom: 2%;
+  }
 }
