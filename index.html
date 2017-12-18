@@ -5,14 +5,21 @@
       <link rel="shortcut icon" href="img/favicon.ico" />
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="theme-color" content="#42007F">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#42007F">
+      <meta name="msapplication-navbutton-color" content="#42007F">
       <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/home/home.css">
       <script type="text/javascript" src="js/jquery.min.js"></script>
       <script type="text/javascript" src="js/popper.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script type="text/javascript">
+        $(window).load(function() {
+          $("#loader").delay(500).fadeOut("slow");
+        });
+</script>
    </head>
    <body>
      <div id="loader"></div>
@@ -110,12 +117,5 @@
             </div>
          </div>
       </footer>
-      <script type="text/javascript">
-  // Este evendo é acionado após o carregamento da página
-  jQuery(window).load(function() {
-    //Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
-    jQuery("#loader").delay(2000).fadeOut("slow");
-  });
-</script>
    </body>
 </html>
