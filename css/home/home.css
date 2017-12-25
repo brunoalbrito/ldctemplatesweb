@@ -1,9 +1,9 @@
 .bg-1 {
-    background: #42007F;
+    background: linear-gradient(#E52222, #6F0101);;
     color: #FFFFFF;
 }
 .bg-2 {
-    background: linear-gradient(#6F0101, #42007F);
+    background: linear-gradient(#6F0101, #AA1111);
     color: #ffffff;
 }
 .container-fluid-first {
