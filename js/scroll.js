@@ -17,4 +17,15 @@ $(document).ready(function (){
             scrollTop: $("#contact").offset().top
         }, 2000);
     });
+
+    
+    $('#search-menu').hide();
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 500) {
+            $('#search-menu').fadeIn('slow');
+        }
+        else {
+            $('#search-menu').fadeOut('slow');
+        }
+    });
 });
