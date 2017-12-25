@@ -1,10 +1,13 @@
 .bg-1 {
-    background: #42007F;
+    background: linear-gradient(#E52222, #6F0101);;
     color: #FFFFFF;
 }
 .bg-2 {
-    background: linear-gradient(#6F0101, #42007F);
+    background: linear-gradient(#6F0101, #AA1111);
     color: #ffffff;
+}
+.bg-3{
+    color: #6F0101;
 }
 .container-fluid-first {
     padding-top: 60px;
@@ -99,10 +102,10 @@ p {
         padding-bottom: 100px;
         height: 100%;
     }
-    .btn {
+    .form-contact-us .btn {
         width: 100%;
     }
-    .btn #send {
+    .form-contact-us .btn #send {
         margin-bottom: 2%;
     }
 }
@@ -124,10 +127,10 @@ p {
         margin: 2%;
         color: white;
     }
-    .btn {
+    .form-contact-us .btn {
         width: 100%;
     }
-    .btn #send {
+    .form-contact-us .btn #send {
         margin-bottom: 2%;
     }
 }
