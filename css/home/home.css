@@ -7,7 +7,11 @@
     color: #ffffff;
 }
 .bg-3{
-    color: #6F0101;
+    background: #f8f9fa;
+    color: #000000;
+}
+a{
+    color: #000000;
 }
 .container-fluid-first {
     padding-top: 60px;
