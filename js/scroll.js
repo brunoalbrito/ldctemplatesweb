@@ -28,4 +28,20 @@ $(document).ready(function (){
             $('#search-menu').fadeOut('slow');
         }
     });
+
+    $(window).scroll(()=>{
+        var nav = $(".navbar");
+        var a = $("a");
+        if($(document).scrollTop() >= $("#team").position().top){
+            console.log($("#team").position().top);
+            console.log($(document).scrollTop());
+            nav.css("background","linear-gradient(#6F0101, #AA1111)");
+            nav.css("color","white");
+            a.css("color", "white");
+        }else{
+            nav.css("background","#f8f9fa");
+            nav.css("color","black");
+            a.css("color", "black");
+        }
+    });
 });
