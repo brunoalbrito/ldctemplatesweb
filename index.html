@@ -39,8 +39,21 @@
                   </li>
                </ul>
                <form class="form-inline my-2 my-lg-0" id="search-menu">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <select class="custom-select" name="" id="" style="margin-right:3px;">
+                            <option selected>Choose an option</option>
+                            <option value="">Numero Único</option>
+                            <option value="">Número do Protocolo</option>
+                            <option value="">Cidade</option>
+                            <option value="">Estado</option>
+                            <option value="">Número do Processo</option>
+                            <option value="">Data Decisão Julgamento</option>
+                            <option value="">Relator</option>
+                         </select>
+
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-success" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </span>
                </form>
             </div>
          </nav>
@@ -54,7 +67,7 @@
                   <div class="col-md-12 col-sm-12 col-xs-12">
                      <div class="col-md-3 col-sm-12 col-xs-8 col-centered" style="margin-top:10px">
                         <select class="custom-select" name="" id="" style="width:100%;">
-                           <option selected>Choose a option</option>
+                           <option selected>Choose an option</option>
                            <option value="">Numero Único</option>
                            <option value="">Número do Protocolo</option>
                            <option value="">Cidade</option>
@@ -66,17 +79,11 @@
                      </div>
                      <div class="col-md-6 col-sm-12 col-xs-8 col-centered">
                         <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                           <input type="text" class="form-control" id="search" placeholder="Search">
-                           <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true" style="color:black!important"></i></div>
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                            <span class="input-group-btn">
+                              <button class="btn btn-success" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </span>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12">
-                     <div class="col-md-9 col-sm-12 col-xs-8 col-centered" style="margin-top:10px">                      
-                        <button type="submit" class="btn btn-primary" style="width:100%;">
-                        <b>Search</b>
-                        <span class="glyphicon glyphicon-search"><i class="fa fa-search" aria-hidden="true"></i></span>
-                        </button>
                      </div>
                   </div>
                </form>
@@ -117,7 +124,7 @@
             </div>
          </div>
       </section>
-      <footer class="container-fluid-2 bg-1" id="contact">
+      <footer class="container-fluid-2 bg-2" id="contact">
          <div class="container">
             <div class="row row-centered">
                <div class="col-md-5 col-sm-12 col-xs-12 col-centered">
@@ -148,7 +155,7 @@
                            <div>
                               <br>
                               <div class="form-group">
-                                 <button type="submit" class="btn btn-primary pull-right">
+                                 <button type="submit" class="btn btn-success pull-right">
                                     <div id="send">
                                        Send
                                        <span class="glyphicon glyphicon-search"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
