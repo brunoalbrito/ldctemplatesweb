@@ -36,9 +36,7 @@ $(document).ready(function (){
         var i = $(".fa");
         
         if(($(document).scrollTop() + 30) >= $("#team").position().top){
-            console.log($("#team").position().top);
-            console.log($(document).scrollTop());
-            nav.css("background","linear-gradient(#6F0101, #AA1111)");
+            nav.css("background","linear-gradient(#6F0101, #AA1111 , #E52222)");
             nav.css("color","white");
             a.css("color", "white");
             i.css("color", "white");
