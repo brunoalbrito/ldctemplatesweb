@@ -47,7 +47,7 @@ $(document).ready(function (){
             nav.css("background","#f8f9fa");
             nav.css("color","black");
             a.css("color", "black");
-            i.css("color", "rgba(0, 0, 0, 0.5)");
+            i.css("color", "black");
             navbar_toggler.css("border-color", "rgba(0, 0, 0, 0.1)");
         }
     });
