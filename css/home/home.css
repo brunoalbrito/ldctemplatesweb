@@ -139,6 +139,10 @@ footer p{
     .form-contact-us .btn #send {
         margin-bottom: 2%;
     }
+    .custom-select{
+        width: 100%;
+        margin-bottom: 2%;
+    }
 }
 
 
