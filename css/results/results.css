@@ -9,3 +9,8 @@
 .resultado-direita {
     float: right;
 }
+
+.conteudo{
+    margin-top: 5px;
+    background-color:#e8e3e3;
+}
