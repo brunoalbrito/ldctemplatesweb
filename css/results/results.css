@@ -1,16 +1,39 @@
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
+.row{
+    margin-top: 1%;
+    background-color:#e8e3e3!important;
+    padding-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 2%;
 }
 
-.resultado-esquerda{
-    float: left;
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bg {
+    background: #b50a0a;
+    color: #ffffff;
+}
+nav a{
+    color: #ffffff!important;
+}
+nav button{
+    color: #ffffff!important;
+    border-color: white!important;
 }
 
-.resultado-direita {
-    float: right;
+#logotipo i{
+    margin-right: 2%!important;
 }
 
-.conteudo{
-    margin-top: 5px;
-    background-color:#e8e3e3;
+h4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.panel-title a{
+    font-size: 15px;
+    font-family: cursive;
 }
