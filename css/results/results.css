@@ -39,3 +39,7 @@ h4{
 .pagination{
     display: -webkit-inline-box;
 }
+.card-footer{
+    height: 500px;
+    overflow: scroll;
+}
